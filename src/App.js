@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import './bootstrap.css';
 
-import NameCard from './components/NameCard';
+import NameCard from './components/NameCard';//人物名片
+import LikesButton from './components/LikesButton';//点赞
+import DigitalClock from './components/DigitalClock';//时钟
+import CommentBox from './components/CommentBox';//
 
-
-import LikesButton from './components/LikesButton';
 class App extends Component {
   render() {
     let tags = ['恐龙','足球小子'];
@@ -19,6 +20,12 @@ class App extends Component {
         <LikesButton/>
 
         <hr/>
+
+        <DigitalClock/>
+
+        <hr/>
+
+        <CommentBox/>
 
       </div>
     );

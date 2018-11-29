@@ -5,6 +5,7 @@ export default class NameCard extends Component {
     const {name, number,isHuman , tags} = this.props;
     return (
       <div className="alert alert-success">
+        <p className="text-center">React 属性</p>
         <h1 className="alert-heading">{name}</h1>
         <ul>
             <li>电话：{number}</li>

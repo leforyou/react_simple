@@ -11,6 +11,7 @@ export default class LikesButton extends Component {
   render() {
     return (
       <div className="likes-bottom-component text-center">
+        <p className="text-center">React 状态</p>
         <p className="btn btn-info" onClick={this.increaseLikes}>
            👍 {this.state.likes} {/* 百度一下：点赞手指怎么打出来。使用这个点赞，控制台输出会警告，请忽略警告！ */}
         </p>
