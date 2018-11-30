@@ -6,3 +6,9 @@ https://www.imooc.com/learn/1045
 
 
 涉及知识点【JSX语法】【Props/State/Forms 属性/状态/生命周期/表单】【留言本】【Context API】
+
+
+
+
+效果图：
+https://github.com/leforyou/react_simple/blob/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg
