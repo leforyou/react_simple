@@ -16,12 +16,14 @@ export default class CommentBox extends Component {
                     <input className="form-control" type="text" placeholder="请输入内容"  ref={(textInput)=>{this.textInput = textInput}}/>
                 </div>
                 <button type="submit" className="btn btn-primary" onClick={this.handleSubmit.bind(this)}>留言</button>
+                <p>已有{this.props.commentsLength}条评论</p>
             </form>
         </div>
         )
     }
     handleSubmit(event){
-        alert(this.textInput.value);
+        //alert(this.textInput.value);//输入框的取值方法
+        this.props.onAddComment(this.textInput.value);
         event.preventDefault();
     }
 }
