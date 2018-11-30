@@ -11,4 +11,5 @@ https://www.imooc.com/learn/1045
 
 
 效果图：
-https://github.com/leforyou/react_simple/blob/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg
+https://raw.githubusercontent.com/leforyou/react_simple/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg
+
