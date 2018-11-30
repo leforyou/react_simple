@@ -6,7 +6,7 @@ export default class LikesButton extends Component {
       this.state = {
           likes:0
       }
-      this.increaseLikes = this.increaseLikes.bind(this);//解决this指向的办法一
+      this.increaseLikes = this.increaseLikes.bind(this);//解决this指向的办法一(推荐)
   }
   render() {
     return (
@@ -20,6 +20,10 @@ export default class LikesButton extends Component {
            👍 {this.state.likes} {解决this指向的办法二 }
         </p>*/}
 
+        {/* <p className="btn btn-info" onClick={()=>{this.increaseLikes.bind(this)}}>
+           👍 {this.state.likes} {解决this指向的办法三：存在性能问题 }
+        </p>*/}
+
       </div>
     )
   }
@@ -29,7 +33,7 @@ export default class LikesButton extends Component {
         likes: ++this.state.likes
       })
   }
-  /*解决this指向的办法三
+  /*解决this指向的办法四(推荐)
   increaseLikes = ()=>{
       console.log(this)
   }*/
