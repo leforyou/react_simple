@@ -11,5 +11,9 @@ https://www.imooc.com/learn/1045
 
 
 效果图：
-https://raw.githubusercontent.com/leforyou/react_simple/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg
+![Image text](https://raw.githubusercontent.com/leforyou/react_simple/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg)
+
+
+
+注：![Image text]这个标识不可缺少，不然就显示文字了。Image text：指的是如果图片不存在了，要显示的文字说明。
 
